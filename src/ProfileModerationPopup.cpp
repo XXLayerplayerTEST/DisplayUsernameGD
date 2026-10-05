@@ -216,7 +216,7 @@ bool DUChangeDisplayPopup::init(int accountID, std::string username) {
 }
 
 void DUChangeDisplayPopup::onSave(CCObject*) {
-   std::string text = m_input ? std::string(m_input->getString()) : std::string{}; ? m_input->getString() : std::string{};
+   std::string text = m_input ? std::string(m_input->getString()) : std::string{};
     text = du::sanitizeDisplayNameInput(text);
     text = du::trimToCodepoints(text, 25);
     if (text.empty()) {
