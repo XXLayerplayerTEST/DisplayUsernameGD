@@ -10,12 +10,14 @@
   "name": "Display Username",
   "version": "1.0.0",
   "developer": "XXLayerPlayer",
-  "description": "Display Username 1.0 release candidate: stable profile names, Layer-amonds, icon-based DU Opinion/Feature, Daily/Search and claimed rewards.",
+  "description": "Custom display usernames for Geometry Dash.",
   "tags": [
     "interface",
-    "customization",
-    "online"
+    "customization"
   ],
+  "links": {
+    "source": "https://github.com/XXLayerplayerTEST/DisplayUsernameGD"
+  },
   "dependencies": {
     "geode.node-ids": ">=v1.23.3"
   },
